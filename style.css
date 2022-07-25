@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-image: url(./images/pHX-vu8-0-relogio-de-bolso-jiyeon-park-oshg1llsna4-unsplash-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cron{
+    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: aquamarine;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+    
+    
+}
+.btn2{
+    background-color: cornflowerblue;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+}
+.btn3{
+    background-color: lightsteelblue;
+    border: 1px solid;
+   
+}
+h1{
+    margin-left: 23%;
+}
+button:hover{
+    background-color: darkcyan;
+    border-color: white;
+    color: white;
+}
+nav{
+    text-align: center;
+    background-color: gray;
+    padding: 40px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    margin-top: 15px;
+}
+.img{
+    background-image: url(./images/stopwatch-png.webp);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-x: 34%;
+    
+}
+#tmp{
+    color: lightseagreen;
+}
+
+
