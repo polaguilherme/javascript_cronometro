@@ -14,7 +14,7 @@ function start(params) {
   
 }
 function pause(params) {
-    
+    sts='pause'
     clearInterval(tmp)
 }
 function zerar(params) {
