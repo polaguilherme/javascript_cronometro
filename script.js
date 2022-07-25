@@ -3,14 +3,22 @@ var seg = 00
 var hr = 00
 var tempo = 1000
 var tmp
+var sts //status
 
 function start(params) {
-   tmp = setInterval(() => {watch()}, tempo)  
+    if(sts=='start'){
+        return;
+    }
+    sts='start'
+   tmp = setInterval(() => {watch()}, tempo) 
+  
 }
 function pause(params) {
+    
     clearInterval(tmp)
 }
 function zerar(params) {
+    sts = 'pause'
     clearInterval(tmp)
     hr=00
     min=00
@@ -29,5 +37,5 @@ function watch(params) {
     }  
     var format = (hr < 10 ? '0'+ hr:hr) + ':'+(min < 10 ? '0'+ min : min)+ ':' +(seg < 10 ? '0'+ seg : seg) 
     document.getElementById('tmp').innerText = format
-  
+
 }
