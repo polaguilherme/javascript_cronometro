@@ -75,4 +75,59 @@ li{
     color: lightseagreen;
 }
 
+@media screen and (max-width: 500px){
+     
+ body{
+    background-image: url(./images/89e9c02ac15c5382b2ce529e34af5084.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ button{
+    display: block;
+    margin-top: 15%;
+    margin-left: 34%;
+    width: 100px;
+    
+ }
+ #tmp{
+    color: black;
+   
+    
+ }
+ .btn1{
+    background-color: gold;
+    border: 3px solid;
+    border-color: black;
+    color: black;
+    width: 100px;
+ }
+ .btn2{
+    background-color: gold;
+    border: 3px solid;
+    border-color: black;
+    color: black;
+    width: 100px;
+ }
+ .btn3{
+    background-color: gold;
+    border: 3px solid;
+    border-color: black;
+    color: black;
+    width: 100px;
+ }
+ nav{
+    padding: 15px;
+    background-color: gold;
+    border: 5px solid;
+    border-color: black;
+    color: black;
+ }
+ .img{
+  background-size: 40px; 
+  background-position-x: -1px ;
+  
+ }
+
+}
+
 
